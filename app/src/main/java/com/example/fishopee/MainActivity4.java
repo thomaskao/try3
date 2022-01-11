@@ -48,11 +48,7 @@ public class MainActivity4 extends AppCompatActivity {
         btn_buy.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast toast =  Toast.makeText(MainActivity4.this, "謝謝惠顧 歡迎再次購物", Toast.LENGTH_SHORT);
-                toast.setGravity(Gravity.BOTTOM|Gravity.CENTER,0,0);   //靠中下
-                toast.show();
-                Intent intent42 = new Intent(MainActivity4.this, MainActivity2.class);
-                startActivity(intent42);
+               
             }
         });
 
